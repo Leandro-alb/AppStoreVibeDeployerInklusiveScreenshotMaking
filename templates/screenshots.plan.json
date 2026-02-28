@@ -1,0 +1,55 @@
+{
+  "notes": "Edit scenes/deep-links to match your app's deterministic screenshot mode.",
+  "devices": [
+    {
+      "label": "iPhone 6.7",
+      "ascDeviceType": "IPHONE_67",
+      "simulatorCandidates": [
+        "iPhone 16 Pro Max",
+        "iPhone 15 Pro Max",
+        "iPhone 14 Pro Max"
+      ]
+    },
+    {
+      "label": "iPhone 6.5",
+      "ascDeviceType": "IPHONE_65",
+      "simulatorCandidates": [
+        "iPhone 11 Pro Max",
+        "iPhone XS Max"
+      ]
+    },
+    {
+      "label": "iPhone 5.5",
+      "ascDeviceType": "IPHONE_55",
+      "simulatorCandidates": [
+        "iPhone 8 Plus"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": "01-onboarding",
+      "scene": "onboarding",
+      "waitSeconds": 2,
+      "deepLink": ""
+    },
+    {
+      "id": "02-main",
+      "scene": "main",
+      "waitSeconds": 2,
+      "deepLink": ""
+    },
+    {
+      "id": "03-feature",
+      "scene": "feature",
+      "waitSeconds": 2,
+      "deepLink": ""
+    },
+    {
+      "id": "04-settings",
+      "scene": "settings",
+      "waitSeconds": 2,
+      "deepLink": ""
+    }
+  ]
+}
